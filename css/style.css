@@ -1,0 +1,95 @@
+/*Primary Green = #00a064*/
+/*Very Dark Green = #005D37*/
+/*Slightly Darker Green = #008E58*/
+/*Lighter Green = #45BB85*/
+/*Light Green = #97D6B6*/
+
+/*Secondary Gray = #3C3C3C*/
+/*Black = #1C1C1C*/
+/*Lighter Gray = #DADADA*/
+/*Lightest Gray = #F2F2F2*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 5rem;
+    color: #F2F2F2;
+    background-color: #3C3C3C;
+}
+
+.footerimg {
+    width: 100px;
+}
+
+.navlogo {
+    width: 100px;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    height: 100%;
+  }
+
+.flex-column.col-a {
+    flex-basis: 250px;
+  }
+  
+.flex-column.col-b {
+    flex-basis: 250px;
+  }
+
+.flex-column {
+    padding: 10px;
+    margin: 10px;
+  }
+
+nav a{
+    font-size: 20px;
+    font-weight: 450;
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DADADA;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: #3C3C3C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #005D37;
+    color: #DADADA;
+  }
+  
+  .active {
+    background-color: #3C3C3C;
+    color: #00a064;
+  }
