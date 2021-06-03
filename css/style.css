@@ -16,13 +16,48 @@
 
 footer {
     display: flex;
-    justify-content: left;
-    padding: 5rem;
+    justify-content: center;
     color: #F2F2F2;
+    padding: 25px;
     background-color: #3C3C3C;
+    max-height: 300px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.flex-container.download {
+    background-color: #00a064;
+    color: #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.flex-column.persona {
+    flex: .33;
+}
+
+.team {
+    background-color: white;
+    padding-top: 5px;
+}
+
+.flex-column.app {
+    flex: 1;
+}
+
+.apps {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -30,6 +65,20 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.pos {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #00a064;
+}
+
+.flex-column.business {
+    flex: 1;
 }
 
 .faqpage {
@@ -63,6 +112,15 @@ button {
     color: #F2F2F2;
 }
 
+.bus {
+    padding: 20px;
+}
+
+.vendorspage {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .navlogo {
     width: 100px;
 }
@@ -87,15 +145,15 @@ body {
 }
 
 .flex-column.col-c {
-    width: 100 px;
+    width: 125px;
 }
 
 .flex-column.col-d {
-    flex: 0.4;
+    width: 150px;
 }
 
 .flex-column.col-e {
-    flex: 0.5;
+    width: auto;
 }
 
 .flex-column {
@@ -112,9 +170,9 @@ nav a{
 nav ul {
     list-style-type: none;
     margin: 0;
+    opacity: 70%;
     padding: 0;
     overflow: hidden;
-    background-color: #DADADA;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -138,11 +196,11 @@ nav li a {
 }
   
 nav li a:hover:not(.active) {
-    background-color: #005D37;
-    color: #DADADA;
+    opacity: 100%;
+    color: #008E58;
 }
   
 .active {
-    background-color: #3C3C3C;
+    opacity: 100%;
     color: #00a064;
 }
