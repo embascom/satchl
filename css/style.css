@@ -22,8 +22,45 @@ footer {
     background-color: #3C3C3C;
 }
 
+h1 {
+    text-align: center;
+}
+
+.vendorimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.faqpage {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;;
+}
+
 .footerimg {
     width: 100px;
+    float: right;
+}
+
+button {
+    color: #F2F2F2;
+    background-color: #00a064;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    padding: inherit;
+}
+
+.button-div {
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+}
+
+.footerlinks {
+    list-style-type: none;
+    color: #F2F2F2;
 }
 
 .navlogo {
@@ -39,20 +76,32 @@ body {
 .flex-container {
     display: flex;
     height: 100%;
-  }
+}
 
 .flex-column.col-a {
-    flex-basis: 250px;
-  }
+    flex: 0.65;
+}
   
 .flex-column.col-b {
-    flex-basis: 250px;
-  }
+    flex: 0.35;
+}
+
+.flex-column.col-c {
+    width: 100 px;
+}
+
+.flex-column.col-d {
+    flex: 0.4;
+}
+
+.flex-column.col-e {
+    flex: 0.5;
+}
 
 .flex-column {
     padding: 10px;
     margin: 10px;
-  }
+}
 
 nav a{
     font-size: 20px;
@@ -74,7 +123,11 @@ nav ul {
 
 nav li {
     float: left;
-  }
+}
+
+.login {
+    float: right;
+}
   
 nav li a {
     display: block;
@@ -82,14 +135,14 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
 nav li a:hover:not(.active) {
     background-color: #005D37;
     color: #DADADA;
-  }
+}
   
-  .active {
+.active {
     background-color: #3C3C3C;
     color: #00a064;
-  }
+}
